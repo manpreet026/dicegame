@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -31,7 +31,25 @@ p {
 img {
   width: 80%;
 }
-
+button {
+  margin-top: 10px;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  background-color: #232931;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #4ECCA3;
+  color: #232931;
+}
+ 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
